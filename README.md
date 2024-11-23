@@ -3,7 +3,10 @@ Terraform AWS EC2 Nginx example. Remember to `destroy` it when done.
 
 ***WARNING!!! This might cause AWS charges.***
 
-## Verify Changes
+## Prerequisite
+- Create a `Key pair` called `nginx-demo` and put it in your .ssh directory.
+
+## Quick Start
 
 ```bash
 % cd terraform
@@ -11,11 +14,17 @@ Terraform AWS EC2 Nginx example. Remember to `destroy` it when done.
 % terraform validate
 % terraform plan
 ```
+Browse to the IP address.
 
 ## Apply Changes
 
 ```bash
 % terraform apply
+```
+
+## Destroy Stack
+```bash
+% terraform apply -destroy
 ```
 
 ## Pre-Commits
