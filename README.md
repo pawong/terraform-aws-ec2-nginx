@@ -15,6 +15,7 @@ Terraform AWS EC2 Nginx example. Remember to `destroy` it when done.
 % terraform plan
 ```
 Browse to the IP address.
+![image](screenshot.png)
 
 ## Apply Changes
 
